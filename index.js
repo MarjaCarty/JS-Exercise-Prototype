@@ -121,10 +121,10 @@ Baby.prototype.play = function () {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. When there is no context, 'this' is bound to the window/console object.
+  2. When used in object methods, 'this' is bound to the object that calls the method (whatever is left of the dot in dot notation).
+  3. When used in invoked constructor functions, 'this' is bound to newly created object.
+  4. When explicitly bound using .call, .apply, or .bind, 'this' is bound to the object we pass into those functions.
 */
 
 
